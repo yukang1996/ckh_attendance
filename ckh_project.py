@@ -178,7 +178,7 @@ from deepface import DeepFace
 DB_DIR = "employees_db"          # Face "database" (just a folder of images)
 ATTENDANCE_CSV = "attendance.csv"
 MODEL_NAME = "ArcFace"           # Good balance of accuracy/speed
-DETECTOR = "retinaface"          # More robust detection; fallback to "opencv" if needed
+DETECTOR = "opencv"          # More robust detection; fallback to "opencv" if needed
 SIMILARITY_THRESHOLD = 0.35      # Lower is stricter for ArcFace (distance). Tune as needed.
 
 os.makedirs(DB_DIR, exist_ok=True)
