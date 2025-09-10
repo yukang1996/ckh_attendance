@@ -4,6 +4,3 @@ pandas
 pillow
 numpy
 tf-keras
-streamlit-webrtc
-onnxruntime
-tensorflow==0.0.0
