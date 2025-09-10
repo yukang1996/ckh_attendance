@@ -3,3 +3,4 @@ deepface
 pandas
 pillow
 numpy
+tf-keras
