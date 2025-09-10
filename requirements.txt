@@ -3,5 +3,5 @@ deepface
 pandas
 pillow
 numpy
-tf-keras
 streamlit-webrtc
+onnxruntime
